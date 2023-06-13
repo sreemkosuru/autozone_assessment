@@ -17,3 +17,10 @@ spec:
         image: nginx:latest
         ports:
         - containerPort: 8080
+        volumeMounts:
+        - name: data-volume
+          mountPath: /app/data
+      volumes:
+      - name: data-volume
+        persistentVolumeClaim:
+          claimName: webapp-pvc
