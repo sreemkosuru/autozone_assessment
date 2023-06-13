@@ -1,7 +1,7 @@
 # autozone_assessment
 
 python web app using Flask framework that can be deployed to minikube running on qemu or any other VM on local machine
-Localhost:8080
+Running on Localhost:8080
 
 Used VScode, python 3.11, Flask and generated self-signed ssl certificate(saved in certs folder)
 
